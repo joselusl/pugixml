@@ -2,8 +2,8 @@
 Changelog for package pugixml
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.7.1 (2016-03-06)
+------------------
 * updating license and readme
 * adding compatibility without ROS
 * minor info update. Still need to be updated properly
