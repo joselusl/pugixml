@@ -1,17 +1,17 @@
-<package>
-	<name>lib_pugixml</name>
+<?xml version="1.0"?>
+<package format="2">
+	<name>pugixml</name>
 	<version>1.0.0</version>
 	<description>
-    		This package is lib_pugixml.
+    		This package is pugixml.
 	</description>
 	<author email="jl.sanchez@upm.es">Jose Luis Sanchez-Lopez</author>
 	<maintainer email="jl.sanchez@upm.es">Jose Luis Sanchez-Lopez</maintainer>
-  	<license>BSD</license>
-	<url>http://ros.org/wiki/lib_pugixml</url>
+	<license>BSD</license>
+	<url>http://ros.org/wiki/pugixml</url>
 
-  	<buildtool_depend>catkin</buildtool_depend>
+	<buildtool_depend>catkin</buildtool_depend>
 
 
 </package>
-
 
