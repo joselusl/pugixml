@@ -1,4 +1,4 @@
-# lib_pugixml
+# pugixml
 This repository is the ROS library for pugixml: [http://pugixml.org/](http://pugixml.org/)
 
 
@@ -38,7 +38,7 @@ Some drones supported by this framework ARE NOT TOYS. Even operation by expert u
 # Packages inside the repository
 This repository is formed by a unique package: 
 
-+ lib_pugixml.
++ pugixml.
 
 
 
