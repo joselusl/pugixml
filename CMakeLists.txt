@@ -1,3 +1,9 @@
+cmake_minimum_required(VERSION 2.8.3)
+
+project(pugixml)
+
+
+
 ################################################################################
 # user build settings
 
@@ -6,11 +12,6 @@ SET(USE_ROS True) # Set False if you want to build this package without Catkin
 
 ################################################################################
 
-
-cmake_minimum_required(VERSION 2.8.3)
-
-set(PROJECT_NAME pugixml)
-project(${PROJECT_NAME})
 
 
 # check c++11 / c++0x
@@ -37,11 +38,6 @@ endif()
 #  MinSizeRel     : w/o debug symbols, w/ optimization, stripped binaries
 
 
-
-if(NOT USE_ROS)
-	set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR}/lib)
-	set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR}/bin)
-endif(NOT USE_ROS)
 
 
 	
@@ -93,6 +89,9 @@ endif()
 ################################################################################
 # Create the pugixmlConfig.cmake file for other cmake projects.
 IF(NOT USE_ROS)
+
+  	set(LIBRARY_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR}/lib)
+	  set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_BINARY_DIR}/bin)
 
     SET(pugixml_LIBRARY_DIR ${LIBRARY_OUTPUT_PATH} )
     #Library with the full path
